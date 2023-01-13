@@ -1,4 +1,4 @@
-The Anxiety Hub
+THE ANXIETY HUB
 
 The Anxiety Hub website is a place for people in Ireland to find 
 information on anxiety disorders. Most sufferers don't know where 
@@ -9,12 +9,7 @@ the information in one place, with links to reccommended webpages
 and reading material suitable for the different types of anxiety disorder.
 
 
-
-
-
-
-
-Features
+FEATURES
 Navigation
 Featured on every page, there is a navigaion bar at the top. Here, the user can visit
 each page on the website. 
@@ -31,3 +26,24 @@ page, straight to that heading.
 
 Finally on the help and information page there are links to the feeling good website and sheppard pratt to save the user 
 having to scroll to the bottom of the page.
+
+LIGHTHOUSE
+Ran lighthouse on the website and it produced the results below.
+
+100
+Performance
+
+96
+Accessibility
+
+83
+Best Practices
+
+100
+SEO
+
+
+VALIDATION
+No errors on CSS.
+Fixed all minor syntax errors on html files.
+
