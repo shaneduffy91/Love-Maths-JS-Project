@@ -59,7 +59,7 @@ function runGame(gameType) {
 
 /**
  * Checks the answer against the first element in 
- * the returned calculateCOrrectAnswer array
+ * the returned calculateCorrectAnswer array
  */
 function checkAnswer() {
     let userAnswer = parseInt(document.getElementById("answer-box").value);
@@ -140,28 +140,7 @@ function displayMultiplyQuestion(operand1, operand2) {
 }
 
 function displayDivisionQuestion(operand1, operand2) {
-     document.getElementById('operand1').textContent = operand1 > operand2 ? Math.round(random / operand1)*operand1 : Math.round(random / operand2)*operand2;
-     document.getElementById('operand2').textContent = operand1 > operand2 ? Math.round(random / operand2)*operand2 : Math.round(random / operand1)*operand1;
-     document.getElementById('operator').textContent = "/";
-
+    document.getElementById('operand1').textContent = operand1 * operand2; 
+    document.getElementById('operand2').textContent = operand1 || operand2;
+    document.getElementById('operator').textContent = "/";
 }
-
-    //let divisor1 = document.getElementById('operand1').textContent;
-    //let divisor2 = document.getElementById('operand2').textContent;
-    //let even1 = divisor1           //%2==0;
-    //let even2 = divisor2            //%2==0;
-
-    
-
-    //if (divisor1 > divisor2  & divisor1 % divisor2 ==0) {
-     //   return divisor1;
-    //} else if (divisor1 > divisor2 & divisor2 % divisor1 ==0) {
-     //   return divisor2;
-    //}
-
-
-
- //const specialRandom = (num = 1, limit = 1000000) =>
- // rounding it off to be divisible by num
- //const res = Math.round( random / num ) * num;
- //return res;
